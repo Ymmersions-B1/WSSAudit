@@ -1,0 +1,112 @@
+package utils
+
+type Test struct {
+	Words []string
+	Grid  [10][10]rune
+}
+
+var Test1 Test = Test{
+	Words: []string{
+		"AIX",
+		"APT",
+		"ARLES",
+		"AUBAGNE",
+		"AUPS",
+		"AVIGNON",
+		"BANDOL",
+		"CANNES",
+		"CASSIS",
+		"DIGNE",
+		"FREJUS",
+		"HYERES",
+		"LUNEL",
+		"MIRAMAS",
+		"NICE",
+		"ORANGE",
+		"SALON",
+		"SORGUES",
+		"TOULON",
+		"VENCE",
+	},
+	Grid: [10][10]rune{
+		{'E', 'P', 'A', 'A', 'M', 'V', 'E', 'N', 'C', 'E'},
+		{'S', 'S', 'S', 'A', 'U', 'B', 'A', 'G', 'N', 'E'},
+		{'L', 'U', 'L', 'M', 'I', 'R', 'A', 'M', 'A', 'S'},
+		{'R', 'A', 'O', 'G', 'E', 'X', 'A', 'C', 'O', 'E'},
+		{'A', 'L', 'N', 'E', 'G', 'N', 'A', 'R', 'O', 'R'},
+		{'T', 'O', 'U', 'L', 'O', 'N', 'G', 'L', 'R', 'E'},
+		{'N', 'D', 'S', 'T', 'N', 'U', 'E', 'I', 'E', 'Y'},
+		{'I', 'N', 'P', 'E', 'E', 'N', 'I', 'L', 'D', 'H'},
+		{'C', 'A', 'S', 'S', 'U', 'J', 'E', 'R', 'F', 'L'},
+		{'E', 'B', 'E', 'L', 'S', 'I', 'S', 'S', 'A', 'C'},
+	},
+}
+
+var Test2 Test = Test{
+	Words: []string{
+		"ISS",
+		"JUPITER",
+		"URANUS",
+		"ARMSTRONG",
+		"SATURNE",
+		"ESA",
+		"TERRE",
+		"CERES",
+		"NASA",
+		"TITAN",
+		"MARS",
+		"LUNE",
+		"VENUS",
+		"BUZZ",
+		"MERCURE",
+		"JAXA",
+		"GAGARINE",
+		"SPACEX",
+	},
+	Grid: [10][10]rune{
+		{'T', 'G', 'N', 'O', 'R', 'T', 'S', 'M', 'R', 'A'},
+		{'I', 'C', 'M', 'C', 'E', 'O', 'E', 'N', 'U', 'L'},
+		{'T', 'N', 'V', 'E', 'N', 'U', 'S', 'Q', 'U', 'E'},
+		{'A', 'N', 'E', 'R', 'R', 'E', 'T', 'T', 'E', 'R'},
+		{'N', 'S', 'A', 'E', 'U', 'C', 'P', 'A', 'T', 'E'},
+		{'M', 'A', 'R', 'S', 'T', 'B', 'U', 'Z', 'Z', 'T'},
+		{'I', 'X', 'E', 'C', 'A', 'P', 'S', 'R', 'A', 'I'},
+		{'J', 'A', 'X', 'A', 'S', 'I', 'S', 'S', 'E', 'P'},
+		{'E', 'S', 'A', 'L', 'S', 'U', 'N', 'A', 'R', 'U'},
+		{'E', 'E', 'N', 'I', 'R', 'A', 'G', 'A', 'G', 'J'},
+	},
+}
+
+var Test3 Test = Test{
+	Words: []string{
+		"ARBRE",
+		"BIO",
+		"CARBONE",
+		"CLIMAT",
+		"DECHETS",
+		"DIVERSITE",
+		"DURABLE",
+		"ECOLO",
+		"ENERGIE",
+		"EOLIENNE",
+		"ESPECES",
+		"NATURE",
+		"OGM",
+		"PETROLE",
+		"POLLUTION",
+		"RESPECT",
+		"VERT",
+	},
+	Grid: [10][10]rune{
+		{'N', 'R', 'D', 'T', 'O', 'L', 'O', 'C', 'E', 'E'},
+		{'C', 'O', 'E', 'U', 'C', 'E', 'R', 'B', 'R', 'A'},
+		{'E', 'T', 'I', 'S', 'R', 'E', 'V', 'I', 'D', 'E'},
+		{'O', 'A', 'G', 'T', 'P', 'A', 'P', 'O', 'Y', 'N'},
+		{'L', 'M', 'R', 'E', 'U', 'E', 'B', 'S', 'C', 'O'},
+		{'I', 'I', 'E', 'H', 'R', 'L', 'C', 'L', 'E', 'B'},
+		{'E', 'L', 'N', 'C', 'V', 'U', 'L', 'E', 'E', 'R'},
+		{'N', 'C', 'E', 'E', 'E', 'M', 'T', 'O', 'S', 'A'},
+		{'N', 'L', 'O', 'D', 'R', 'N', 'G', 'A', 'P', 'C'},
+		{'E', 'L', 'O', 'R', 'T', 'E', 'P', 'O', 'N', 'S'},
+	},
+}
